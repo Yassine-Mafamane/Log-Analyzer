@@ -5,6 +5,7 @@ Hadoop MapReduce log analyzer that detects security anomalies.
 ## Requirements
 
 - Docker
+- g++ compiler
 
 ## Usage
 
@@ -13,9 +14,14 @@ Hadoop MapReduce log analyzer that detects security anomalies.
 docker load -i hadoop_bigdata.tar
 ```
 
-2. Add log files to `logs/` folder
+2. Compile mapper and reducer:
+```bash
+g++ -static -o mapper srcs/mapper.cpp && g++ -static -o reducer srcs/reducer.cpp
+```
 
-3. Run the analysis:
+3. Add log files to `logs/` folder
+
+4. Run the analysis:
 ```bash
 docker run --rm --privileged --hostname localhost --entrypoint /bin/bash \
   -v "$(pwd)/output:/data/output" \
@@ -26,12 +32,12 @@ docker run --rm --privileged --hostname localhost --entrypoint /bin/bash \
   suhothayan/hadoop-spark-pig-hive:2.9.2 /init.sh
 ```
 
-4. Generate HTML report:
+5. Generate HTML report:
 ```bash
 ./generate_report.sh
 ```
 
-5. Open `report.html` in browser
+6. Open `report.html` in browser
 
 ## Output
 
@@ -45,3 +51,4 @@ Results are saved to `output/anomalies.txt`
 | SCAN | Port/vulnerability scanning |
 | ID | Credential stuffing |
 | IP | DDoS attacks |
+
