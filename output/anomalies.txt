@@ -1,0 +1,4 @@
+BRUTE:10.0.0.50 | Count: 12 | WARNING: Monitor IP	
+BRUTE:203.0.113.42 | Count: 24 | CRITICAL: Ban IP - Brute force	
+ID:user123 | Count: 12 | CRITICAL: Account lock recommended	
+SCAN:45.33.32.156 | Count: 53 | CRITICAL: Block IP - Scanner detected	

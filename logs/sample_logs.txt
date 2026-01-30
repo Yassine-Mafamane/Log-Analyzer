@@ -1,0 +1,100 @@
+2026-01-30 10:00:01 REQUEST ip=192.168.1.100 path=/api/users method=GET
+2026-01-30 10:00:02 REQUEST ip=192.168.1.100 path=/api/products method=GET
+2026-01-30 10:00:03 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:04 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:05 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:06 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:07 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:08 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:09 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:10 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:11 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:12 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:13 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:14 LOGIN_FAILED account_id=user123 ip=10.0.0.50 reason=invalid_password
+2026-01-30 10:00:15 LOGIN_SUCCESS account_id=admin ip=192.168.1.1
+2026-01-30 10:00:16 REQUEST ip=45.33.32.156 path=/admin method=GET
+2026-01-30 10:00:17 ERROR_404 ip=45.33.32.156 path=/wp-admin
+2026-01-30 10:00:18 ERROR_404 ip=45.33.32.156 path=/phpmyadmin
+2026-01-30 10:00:19 ERROR_404 ip=45.33.32.156 path=/.env
+2026-01-30 10:00:20 ERROR_404 ip=45.33.32.156 path=/config.php
+2026-01-30 10:00:21 ERROR_404 ip=45.33.32.156 path=/backup.sql
+2026-01-30 10:00:22 ERROR_403 ip=45.33.32.156 path=/etc/passwd
+2026-01-30 10:00:23 ERROR_404 ip=45.33.32.156 path=/.git/config
+2026-01-30 10:00:24 ERROR_404 ip=45.33.32.156 path=/xmlrpc.php
+2026-01-30 10:00:25 ERROR_404 ip=45.33.32.156 path=/wp-login.php
+2026-01-30 10:00:26 ERROR_404 ip=45.33.32.156 path=/administrator
+2026-01-30 10:00:27 ERROR_404 ip=45.33.32.156 path=/admin.php
+2026-01-30 10:00:28 ERROR_404 ip=45.33.32.156 path=/login.php
+2026-01-30 10:00:29 ERROR_404 ip=45.33.32.156 path=/shell.php
+2026-01-30 10:00:30 ERROR_404 ip=45.33.32.156 path=/uploads/shell.php
+2026-01-30 10:00:31 ERROR_404 ip=45.33.32.156 path=/cgi-bin/test
+2026-01-30 10:00:32 ERROR_404 ip=45.33.32.156 path=/api/v1/debug
+2026-01-30 10:00:33 ERROR_404 ip=45.33.32.156 path=/.htaccess
+2026-01-30 10:00:34 ERROR_404 ip=45.33.32.156 path=/server-status
+2026-01-30 10:00:35 ERROR_404 ip=45.33.32.156 path=/phpinfo.php
+2026-01-30 10:00:36 ERROR_404 ip=45.33.32.156 path=/test.php
+2026-01-30 10:00:37 ERROR_404 ip=45.33.32.156 path=/debug.php
+2026-01-30 10:00:38 ERROR_404 ip=45.33.32.156 path=/info.php
+2026-01-30 10:00:39 ERROR_404 ip=45.33.32.156 path=/db.php
+2026-01-30 10:00:40 ERROR_404 ip=45.33.32.156 path=/database.sql
+2026-01-30 10:00:41 ERROR_404 ip=45.33.32.156 path=/dump.sql
+2026-01-30 10:00:42 ERROR_404 ip=45.33.32.156 path=/backup.tar.gz
+2026-01-30 10:00:43 ERROR_404 ip=45.33.32.156 path=/api/swagger.json
+2026-01-30 10:00:44 ERROR_404 ip=45.33.32.156 path=/graphql
+2026-01-30 10:00:45 ERROR_404 ip=45.33.32.156 path=/actuator/health
+2026-01-30 10:00:46 ERROR_404 ip=45.33.32.156 path=/metrics
+2026-01-30 10:00:47 ERROR_404 ip=45.33.32.156 path=/console
+2026-01-30 10:00:48 ERROR_404 ip=45.33.32.156 path=/manager/html
+2026-01-30 10:00:49 ERROR_404 ip=45.33.32.156 path=/solr/admin
+2026-01-30 10:00:50 ERROR_404 ip=45.33.32.156 path=/jenkins
+2026-01-30 10:00:51 ERROR_404 ip=45.33.32.156 path=/jmx-console
+2026-01-30 10:00:52 ERROR_404 ip=45.33.32.156 path=/status
+2026-01-30 10:00:53 ERROR_404 ip=45.33.32.156 path=/trace
+2026-01-30 10:00:54 ERROR_404 ip=45.33.32.156 path=/heapdump
+2026-01-30 10:00:55 ERROR_404 ip=45.33.32.156 path=/threaddump
+2026-01-30 10:00:56 ERROR_404 ip=45.33.32.156 path=/env
+2026-01-30 10:00:57 ERROR_404 ip=45.33.32.156 path=/beans
+2026-01-30 10:00:58 ERROR_404 ip=45.33.32.156 path=/mappings
+2026-01-30 10:00:59 ERROR_404 ip=45.33.32.156 path=/configprops
+2026-01-30 10:01:00 ERROR_404 ip=45.33.32.156 path=/autoconfig
+2026-01-30 10:01:01 ERROR_404 ip=45.33.32.156 path=/auditevents
+2026-01-30 10:01:02 ERROR_404 ip=45.33.32.156 path=/loggers
+2026-01-30 10:01:03 ERROR_404 ip=45.33.32.156 path=/flyway
+2026-01-30 10:01:04 ERROR_404 ip=45.33.32.156 path=/liquibase
+2026-01-30 10:01:05 ERROR_404 ip=45.33.32.156 path=/httptrace
+2026-01-30 10:01:06 ERROR_404 ip=45.33.32.156 path=/scheduledtasks
+2026-01-30 10:01:07 ERROR_404 ip=45.33.32.156 path=/sessions
+2026-01-30 10:01:08 ERROR_404 ip=45.33.32.156 path=/caches
+2026-01-30 10:01:09 ERROR_404 ip=45.33.32.156 path=/conditions
+2026-01-30 10:01:10 LOGIN_FAILED account_id=admin ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:11 LOGIN_FAILED account_id=admin ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:12 LOGIN_FAILED account_id=root ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:13 LOGIN_FAILED account_id=administrator ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:14 LOGIN_FAILED account_id=test ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:15 LOGIN_FAILED account_id=guest ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:16 LOGIN_FAILED account_id=demo ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:17 LOGIN_FAILED account_id=user ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:18 LOGIN_FAILED account_id=support ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:19 LOGIN_FAILED account_id=info ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:20 LOGIN_FAILED account_id=sales ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:21 LOGIN_FAILED account_id=contact ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:22 LOGIN_FAILED account_id=webmaster ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:23 LOGIN_FAILED account_id=postmaster ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:24 LOGIN_FAILED account_id=hostmaster ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:25 LOGIN_FAILED account_id=ssladmin ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:26 LOGIN_FAILED account_id=sysadmin ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:27 LOGIN_FAILED account_id=abuse ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:28 LOGIN_FAILED account_id=noc ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:29 LOGIN_FAILED account_id=security ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:30 LOGIN_FAILED account_id=devnull ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:31 LOGIN_FAILED account_id=null ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:32 LOGIN_FAILED account_id=mailer-daemon ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:33 LOGIN_FAILED account_id=nobody ip=203.0.113.42 reason=invalid_password
+2026-01-30 10:01:34 REQUEST ip=192.168.1.100 path=/api/orders method=POST
+2026-01-30 10:01:35 REQUEST ip=192.168.1.100 path=/api/checkout method=POST
+2026-01-30 10:01:36 REQUEST ip=192.168.1.101 path=/index.html method=GET
+2026-01-30 10:01:37 REQUEST ip=192.168.1.101 path=/styles.css method=GET
+2026-01-30 10:01:38 REQUEST ip=192.168.1.101 path=/app.js method=GET
+2026-01-30 10:01:39 LOGIN_SUCCESS account_id=john_doe ip=192.168.1.101
+2026-01-30 10:01:40 REQUEST ip=192.168.1.101 path=/dashboard method=GET
